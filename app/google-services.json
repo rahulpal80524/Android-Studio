@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629723241632",
+    "project_id": "medi-caps-university-app",
+    "storage_bucket": "medi-caps-university-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629723241632:android:09720be28e0a9bd96cbdc5",
+        "android_client_info": {
+          "package_name": "com.example.adminmedi_capsuniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629723241632-kg3knjhtuis8569qjsag4ng9jigss4ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFLavfQ7qqV58xZ4WaIgOafaDI6qv7TvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629723241632-kg3knjhtuis8569qjsag4ng9jigss4ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
