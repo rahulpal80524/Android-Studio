@@ -7,12 +7,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.adminmedi_capsuniversity.faculty.AddTeachers;
 import com.example.adminmedi_capsuniversity.faculty.UpdateFaculty;
+import com.example.adminmedi_capsuniversity.notice.DeleteNoticeActivity;
+import com.example.adminmedi_capsuniversity.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    CardView uploadNotice,addGalleryImage,addEbook,faculty;
+    CardView uploadNotice,addGalleryImage,addEbook,faculty,deleteNotice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +23,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addGalleryImage = findViewById(R.id.addGalleryImage);
         faculty =findViewById(R.id.addfaculty);
         addEbook = findViewById(R.id.addEbook);
+        deleteNotice = findViewById(R.id.deleteNotice);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEbook.setOnClickListener(this);
         faculty.setOnClickListener(this);
+        deleteNotice.setOnClickListener(this);
     }
 
     @Override
@@ -35,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
 
             case R.id.addNotice:
-                 intent = new Intent(this,UploadNotice.class);
+                 intent = new Intent(this, UploadNotice.class);
                 startActivity(intent);
                 break;
 
@@ -51,6 +54,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.addfaculty:
                  intent = new Intent(this, UpdateFaculty.class);
+                startActivity(intent);
+                break;
+
+            case R.id.deleteNotice:
+                 intent = new Intent(this, DeleteNoticeActivity.class);
                 startActivity(intent);
                 break;
 

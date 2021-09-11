@@ -87,7 +87,7 @@ public class UpdateFaculty extends AppCompatActivity {
                  }
                  csDepartment.setHasFixedSize(true);
                  csDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                 adapter= new TeacherAdapter(list1,UpdateFaculty.this);
+                 adapter= new TeacherAdapter(list1,UpdateFaculty.this,"Computer Science");
                  csDepartment.setAdapter(adapter);
 
 
@@ -121,7 +121,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     PhysicasDepartment.setHasFixedSize(true);
                     PhysicasDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter= new TeacherAdapter(list3,UpdateFaculty.this);
+                    adapter= new TeacherAdapter(list3,UpdateFaculty.this,"Physics");
                     PhysicasDepartment.setAdapter(adapter);
 
 
@@ -155,7 +155,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     MechenicalDepartment.setHasFixedSize(true);
                     MechenicalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter= new TeacherAdapter(list2,UpdateFaculty.this);
+                    adapter= new TeacherAdapter(list2,UpdateFaculty.this,"Mechenical");
                     MechenicalDepartment.setAdapter(adapter);
 
 
@@ -189,7 +189,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     chemistryDepartment.setHasFixedSize(true);
                     chemistryDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter= new TeacherAdapter(list4,UpdateFaculty.this);
+                    adapter= new TeacherAdapter(list4,UpdateFaculty.this,"Chemistry");
                     chemistryDepartment.setAdapter(adapter);
 
 

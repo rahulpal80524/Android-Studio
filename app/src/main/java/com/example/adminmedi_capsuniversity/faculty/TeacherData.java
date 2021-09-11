@@ -10,6 +10,7 @@ public class TeacherData {
      public TeacherData(String name,String email,String post,String image,String key){
          this.name=name;
          this.email=email;
+         this.post=post;
          this.image=image;
          this.key=key;
 

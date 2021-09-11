@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdminMediCapsUniversity">
         <activity
+            android:name=".notice.DeleteNoticeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.UpdateTeacherActivity"
+            android:exported="true" />
+        <activity
             android:name=".faculty.AddTeachers"
             android:exported="true" />
         <activity
@@ -25,7 +31,7 @@
             android:name=".UploadImage"
             android:exported="true" />
         <activity
-            android:name=".UploadNotice"
+            android:name=".notice.UploadNotice"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

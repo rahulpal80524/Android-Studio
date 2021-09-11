@@ -19,9 +19,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.adminmedi_capsuniversity.NoticeData;
 import com.example.adminmedi_capsuniversity.R;
-import com.example.adminmedi_capsuniversity.UploadNotice;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
@@ -32,8 +30,6 @@ import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
 public class AddTeachers extends AppCompatActivity {
 

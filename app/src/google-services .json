@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "35618349352",
+    "firebase_url": "https://medi-caps-university-app-29a80-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "medi-caps-university-app-29a80",
+    "storage_bucket": "medi-caps-university-app-29a80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35618349352:android:c6c92f7504c9ed3368301d",
+        "android_client_info": {
+          "package_name": "com.example.adminmedi_capsuniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35618349352-4tt1o18jmo4cfvb4ikkhiij69ppb17v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVInAyjAL8iz8IbSqyKHALjeeXLBBBJ9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35618349352-4tt1o18jmo4cfvb4ikkhiij69ppb17v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.example.adminmedi_capsuniversity;
+package com.example.adminmedi_capsuniversity.notice;
 
 import java.lang.reflect.Constructor;
 

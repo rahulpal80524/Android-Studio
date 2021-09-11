@@ -29,7 +29,7 @@
                     android:id="@+id/TeacherName"
                     android:text="rahul"
                     android:textColor="@color/TextColor"
-                    android:textSize="18s"/>
+                    android:textSize="18sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                     android:id="@+id/TeacherPost"
                     android:text="principal"
                     android:textColor="@color/TextColor"
-                    android:textSize="18s"/>
+                    android:textSize="18sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:id="@+id/TeacherEmail"
                     android:text="rahul1233@gmail.com"
                     android:textColor="@color/TextColor"
-                    android:textSize="18s"/>
+                    android:textSize="18sp"/>
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/teacherUpdate"
                     android:layout_width="wrap_content"
